@@ -1,8 +1,12 @@
 console.log('Hello World');
 const store='Data' + 3;
-<<<<<<< HEAD
+
 const stores='Data' + 2;
-=======
->>>>>>> master
+
+function returnData(){
+ return store * stores;
+}
+
+returnData();
 
 console.log(store===false);
